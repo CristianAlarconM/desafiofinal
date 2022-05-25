@@ -1,0 +1,49 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+.navbar img{
+  width: 300px
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("/DesafioLatam/nuevo/fdsw-github/assets/img/yo.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: solid 1px blue;
+  background-position: left
+
+  
+}
+.icon{
+  font-size: xx-large;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
